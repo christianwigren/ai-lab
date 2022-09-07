@@ -16,9 +16,6 @@ nose
 numpy 
 pandas 
 pdf2image 
-pycparser 
-pycrypto 
-pycups 
 PyDocX 
 PyPDF2 
 pytesseract 
