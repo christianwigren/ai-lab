@@ -31,3 +31,4 @@ tensorboard-plugin-wit
 tqdm 
 xgboost
 markupsafe
+matplotlib
