@@ -2,9 +2,7 @@ colorama
 Cython 
 deepl 
 dnspython 
-docx2txt 
-en-core-web-md 
-en-core-web-sm 
+docx2txt
 fuzzywuzzy 
 hocr-tools 
 html2image 
