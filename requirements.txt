@@ -18,7 +18,6 @@ pandas
 pdf2image 
 PyDocX 
 PyPDF2 
-pytesseract 
 scikit-image 
 scikit-learn 
 scipy 
@@ -29,6 +28,5 @@ spacy-loggers
 spacy-sentence-bert 
 tensorboard 
 tensorboard-plugin-wit 
-tesserocr 
 tqdm 
 xgboost 
