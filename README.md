@@ -2,7 +2,7 @@
 
 Här finns instruktion för att komma igång med labbar på Öjn!
 
-## Gör detta innan avfärd.
+## Gör detta innan avfärd
 
 ### Ladda hem detta repo
 Ladda hem detta repo med några färdiga script. 
