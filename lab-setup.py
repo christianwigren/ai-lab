@@ -17,7 +17,6 @@ try:
     datasets.fetch_lfw_pairs()
     datasets.fetch_lfw_people()
     datasets.fetch_olivetti_faces()
-    datasets.fetch_openml()
     datasets.fetch_rcv1()
     datasets.fetch_species_distributions()
 
@@ -25,6 +24,6 @@ try:
     nlp = spacy_sentence_bert.load_model('en_stsb_roberta_large')
     print('Nu är du redo!')
 except Exception as e:
-    print(e.message)
+    print(e.text)
 
 
