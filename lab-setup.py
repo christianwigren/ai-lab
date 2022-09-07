@@ -24,6 +24,6 @@ try:
     nlp = spacy_sentence_bert.load_model('en_stsb_roberta_large')
     print('Nu är du redo!')
 except Exception as e:
-    print(e.text)
+    print(e)
 
 
