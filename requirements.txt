@@ -19,7 +19,6 @@ pdf2image
 pycparser 
 pycrypto 
 pycups 
-pycurl 
 PyDocX 
 PyPDF2 
 pytesseract 
