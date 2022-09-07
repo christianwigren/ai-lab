@@ -29,4 +29,5 @@ spacy-sentence-bert
 tensorboard 
 tensorboard-plugin-wit 
 tqdm 
-xgboost 
+xgboost
+markupsafe
