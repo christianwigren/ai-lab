@@ -10,6 +10,7 @@ Ladda hem detta repo med några färdiga script.
 ### Installera python 3 (version 3)
 
 **Windows**
+
 Mitt tips är att installera anaconda när du vill köra python på windows. 
 Den pakteringen av python fungerade mycket smidagare för mig när jag körde windows.
 Försöker hjälpa till med lite instruktioner för båda.
@@ -18,11 +19,13 @@ https://docs.anaconda.com/anaconda/install/windows/
 
 
 **Linux**
+
 Brukar vara installerat från start (beroende på dist).
 Om inte så får ni använda pakethanteraren för er dist.
 
 
 **Mac**
+
 Har ingen erfarenhet av att köra Mac tyvärr. Kanske vettigt att Googla from bara.
 
 Som t.ex. den här: https://docs.python-guide.org/starting/install3/osx/
