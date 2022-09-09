@@ -1,5 +1,5 @@
 from sklearn import datasets
-import spacy_sentence_bert
+# import spacy_sentence_bert
 
 
 try: 
@@ -35,10 +35,10 @@ try:
     datasets.fetch_species_distributions()
     print('fetch_species_distributions redo')
 
-    nlp = spacy_sentence_bert.load_model('en_stsb_distilbert_base')
-    print('en_stsb_distilbert_base redo')
-    nlp = spacy_sentence_bert.load_model('en_stsb_roberta_large')
-    print('en_stsb_roberta_large redo')
+    # nlp = spacy_sentence_bert.load_model('en_stsb_distilbert_base')
+    # print('en_stsb_distilbert_base redo')
+    # nlp = spacy_sentence_bert.load_model('en_stsb_roberta_large')
+    # print('en_stsb_roberta_large redo')
     print('Nu är du redo!')
 except Exception as e:
     print(e)
