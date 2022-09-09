@@ -54,7 +54,7 @@ Jag har preppat en fil med paket vi behöver.
 
 **Windows**
 
-`conda install -r requirements.txt --upgrade`
+`conda install --file requirements.txt`
 
 
 ### Kör pre-lab.py

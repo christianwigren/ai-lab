@@ -16,6 +16,8 @@ import matplotlib.pyplot as plt
 
 # Import datasets, classifiers and performance metrics
 from sklearn import datasets, svm, metrics
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
 from sklearn.model_selection import train_test_split
 
 ###############################################################################
@@ -61,6 +63,7 @@ data = digits.images.reshape((n_samples, -1))
 
 # Create a classifier: a support vector classifier
 clf = svm.SVC(gamma=0.001)
+# clf = XGBClassifier(use_label_encoder=False, eval_metric='logloss')
 
 # Split data into 50% train and 50% test subsets
 X_train, X_test, y_train, y_test = train_test_split(
