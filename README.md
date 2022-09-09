@@ -60,7 +60,7 @@ Jag har preppat en fil med paket vi behöver.
 ### Kör pre-lab.py
 För att ladda hem så mycket som möjligt innan vi är på Öjn.
 
-`python3 pre-lab.py`
+`python3 lab-setup.py`
 
 
 
