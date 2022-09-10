@@ -65,7 +65,7 @@ print(data['HasPaid'][1])
 
 for i in range(len(data)):
     if data['HasPaid'][i] == 0:
-        failed += failed
+        failed = failed + 1
         if failed <= 247:
             X.append([data['Gender'][i], data['Age'][i], data['EmploymentStatus'][i], data['NotificationType'][i], data['Debt'][i]])
             y.append(data['HasPaid'][i])
