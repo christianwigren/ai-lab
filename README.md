@@ -67,3 +67,8 @@ För att ladda hem så mycket som möjligt innan vi är på Öjn.
 
 https://scikit-learn.org/stable/auto_examples/index.html
 
+https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
+
+https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+
+

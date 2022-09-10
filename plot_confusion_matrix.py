@@ -79,8 +79,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 
 # Run classifier, using a model that is too regularized (C too low) to see
 # the impact on the results
-# classifier = svm.SVC(kernel="linear", C=0.01).fit(X_train, y_train)
-classifier = XGBClassifier(use_label_encoder=False, eval_metric='logloss').fit(X_train, y_train)
+classifier = svm.SVC(kernel="linear", C=0.01).fit(X_train, y_train)
+# classifier = XGBClassifier(use_label_encoder=False, eval_metric='logloss').fit(X_train, y_train)
 
 np.set_printoptions(precision=2)
 
