@@ -12,6 +12,7 @@ hand-written digits, from 0-9.
 # License: BSD 3 clause
 
 # Standard scientific Python imports
+from asyncore import read
 import matplotlib.pyplot as plt
 
 # Import datasets, classifiers and performance metrics
@@ -42,6 +43,10 @@ for ax, image, label in zip(axes, digits.images, digits.target):
     ax.imshow(image, cmap=plt.cm.gray_r, interpolation="nearest")
     ax.set_title("Training: %i" % label)
 
+
+# read('Press any key to continue')
+
+
 ###############################################################################
 # Classification
 # --------------
@@ -66,9 +71,7 @@ clf = svm.SVC(gamma=0.001)
 # clf = XGBClassifier(use_label_encoder=False, eval_metric='logloss')
 
 # Split data into 50% train and 50% test subsets
-X_train, X_test, y_train, y_test = train_test_split(
-    data, digits.target, test_size=0.5, shuffle=False
-)
+X_train, X_test, y_train, y_test = train_test_split(data, digits.target, test_size=0.5, shuffle=False)
 
 # Learn the digits on the train subset
 clf.fit(X_train, y_train)

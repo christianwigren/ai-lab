@@ -63,4 +63,7 @@ För att ladda hem så mycket som möjligt innan vi är på Öjn.
 `python3 lab-setup.py`
 
 
+## Labbar
+
+https://scikit-learn.org/stable/auto_examples/index.html
 
